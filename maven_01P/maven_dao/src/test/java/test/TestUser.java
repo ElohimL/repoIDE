@@ -11,5 +11,9 @@ public class TestUser {
         user.setName("张三");
         user.setBirthday(new Date());
         System.out.println(user);
+        show();
+    }
+    public static void show(){
+        System.out.println("Jhin");
     }
 }
